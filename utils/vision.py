@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 from utils.input import click_button
+from config import DEFAULT_THRESHOLD
 
 def find_image(template_path, screen_image, threshold=0.8):
     template = cv2.imread(template_path, 0)
