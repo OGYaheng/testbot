@@ -5,7 +5,6 @@ from utils.input import hold_key, press_key
 
 def auto_run_loop(template_path=None, step_time=3, rest_time=1):
     print("開始自動跑圖... 按 Ctrl+C 停止")
-
     while True:
         if template_path:
             screen_image = capture_screen()
@@ -17,7 +16,5 @@ def auto_run_loop(template_path=None, step_time=3, rest_time=1):
                 print("沒找到圖，跳過")
                 time.sleep(1)
                 continue
-
-        hold_key('w', duration=step_time)
 
         time.sleep(rest_time)

@@ -1,7 +1,6 @@
+import pyautogui
 import numpy as np
 import cv2
-import pyautogui
-from PIL import Image
 
 # 設定螢幕擷取區域
 screen_width, screen_height = pyautogui.size()

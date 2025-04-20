@@ -1,8 +1,7 @@
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
 
-# 跑圖參數
-WALK_KEY = 'w'         
+# 跑圖參數    
 STEP_TIME = 2          
 REST_TIME = 1          
 

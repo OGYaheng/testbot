@@ -1,9 +1,6 @@
-import cv2
-from utils.screen import capture_screen
-from utils.vision import find_image_and_click
-from core.runner import auto_run_loop
-from config import STEP_TIME, REST_TIME, TEMPLATE_DIR
 import os
+from config import STEP_TIME, REST_TIME, TEMPLATE_DIR
+from core.runner import auto_run_loop
 
 def main():
     template_path = os.path.join(TEMPLATE_DIR, "start_button.png")
